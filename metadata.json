@@ -1,0 +1,6 @@
+{
+  "name": "1st PLT — 26-007 NCR Course Dashboard",
+  "description": "Class Dashboard 27-001 National Guard Recruiter Course — assignment runway, evaluation tracker, regulations, and course resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
