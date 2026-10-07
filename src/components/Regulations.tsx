@@ -17,7 +17,7 @@ export const Regulations: React.FC = () => {
     { code: "PPOM 25-042", title: "ARNG Accessions Options Criteria (AOC)", tag: "Policy" },
     { code: "AR 40-501", title: "Standards of Medical Fitness (Chapter 2)", tag: "Medical" },
     { code: "DA Pam 611-21", title: "Military Occupational Classification & 79T", tag: "Classification" },
-    { code: "SRIP 26-01", title: "Selected Reserve Incentive Program & Matrix", tag: "Incentives" },
+    { code: "SRIP 27-01", title: "Selected Reserve Incentive Program & Matrix (ARNG-HRZ #27-01)", tag: "Incentives" },
     { code: "AR 670-1", title: "Wear & Appearance of Army Uniforms (AGSU/ASU)", tag: "Standards" },
     { code: "NGR 601-1", title: "Army National Guard Strength Maintenance", tag: "Operations" },
     { code: "AR 600-9", title: "The Army Body Composition Program", tag: "Readiness" },

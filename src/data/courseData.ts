@@ -170,8 +170,8 @@ export const EVALUATION_ANNOUNCEMENTS: EvaluationAnnouncement[] = [
     dueDay: 8,
     channel: "In class testing (Day 8, Wednesday, Oct 28, 0830–1030)",
     headline: "24-Hour Warning: Written Exam 2 (NCRCW002) Tomorrow (Wed 28 Oct)",
-    directive: "Written Exam 2 evaluates tomorrow (Day 8, Wednesday, 28 Oct) at 0830. Intensive coverage of Selected Reserve Incentive Program (SRIP Policy 26-01), enlistment options, bonus payment tranches, and accession criteria. Re-examination Day 9 at 0600.",
-    materials: ["AR 601-210", "SRIP Policy 26-01", "AOC PPOM 25-043"]
+    directive: "Written Exam 2 evaluates tomorrow (Day 8, Wednesday, 28 Oct) at 0830. Intensive coverage of Selected Reserve Incentive Program (SRIP Policy 27-01), enlistment options, bonus payment tranches, and accession criteria. Re-examination Day 9 at 0600.",
+    materials: ["AR 601-210", "SRIP Policy 27-01", "AOC PPOM 25-043"]
   },
   {
     id: "ann-cm4r-3",
@@ -377,7 +377,7 @@ export const EVALS: EvaluationItem[] = [
     type: "written",
     channel: "In class testing (Day 8, Wednesday, Oct 28, 0830–1030)",
     deliverable: "Written exam covering ARNG enlistment options, Selected Reserve Incentive Program (SRIP) policies, educational benefits, and enlistment bonuses. Administered on Day 8 (Wednesday, Oct 28, 0830–1030). Remedial Day 8 at 1530; Re-examination scheduled for Day 9 at 0600.",
-    materials: ["AR 601-210", "SRIP Policy 26-01", "AOC PPOM 25-043"]
+    materials: ["AR 601-210", "SRIP Policy 27-01", "AOC PPOM 25-043"]
   },
   {
     id: "ncrcp002",
@@ -727,12 +727,12 @@ export const REGULATIONS: RegulationItem[] = [
   },
   {
     id: "reg-5",
-    code: "ARNG FY26 SRIP",
-    title: "Selected Reserve Incentive Program Policy 26-01",
+    code: "ARNG FY27 SRIP",
+    title: "Selected Reserve Incentive Program Policy 27-01",
     category: "Incentives",
-    docNumber: "SRIP 26-01",
-    note: "Effective 1 Oct 2025. Authorizes enlistment bonuses, student loan repayment program (SLRP), and reenlistment incentives.",
-    highlights: ["Tier 1 $20,000 Critical MOS Bonus", "SLRP $50,000 maximum disbursement rules", "Off-peak ship date incentive matrix"],
+    docNumber: "ARNG-HRZ #27-01",
+    note: "Effective 1 Oct 2026. Prescribes standards for ARNG incentives: Non-Prior Service Enlistment Bonus (NPSEB up to $25,000), Off-Peak ($2,500), Prior Service ($20,000), EAB ($20,000), REB ($20,000), MOSCB ($10,000), SLRP ($50,000), CLRP ($80,000), and 79T AGR REB ($12,000). Suspends officer accession and retention bonuses.",
+    highlights: ["NPSEB Tier 1 $25,000 & Tiers 2–4 ($12.5K–$6.25K)", "SLRP $50,000 lifetime cap ($8,333.33/yr cap)", "Off-Peak $2,500 lump sum & digital signature rules"],
     href: "#"
   },
   {
@@ -802,16 +802,16 @@ export const JOB_AIDS: JobAidItem[] = [
     id: "tool-1",
     title: "APPLE-MDT Matrix",
     module: "Identify Eligibility Doctrine",
-    note: "SMTB 805B-SQI4 Doctrine (20230612): Official regulatory crosswalk for Non-Prior Service (NPS) and Prior Service (PS) correlating Age / Citizenship, Physical, Prior Service, Law Violations, Education, Marital Status, Dependents, and Testing to AR 601-210, AOC, AR 40-501, and AR 600-9.",
+    note: "SMTB 805B-SQI4 Doctrine (20230612): Official regulatory crosswalk for Non-Prior Service (NPS) and Prior Service (PS) correlating Age / Citizenship, Physical, Prior Service, Law Violations, Education, Marital Status, Dependents, and Testing to AR 601-210, AOC, AR 40-501, AR 670-1 para. 3-3, and AR 600-9.",
     quickGuide: [
-      "Age / Citizenship: AR 601-210, para 2-3 & 2-4 / AOC, para 2-4 (NPS) · AR 601-210, para 3-3 / AOC, para 3-3 (PS)",
-      "Physical: AR 601-210, para 2-9; AR 40-501 / AOC, para 2-9 (NPS) · AR 601-210, para 3-7 / AOC, para 3-7; AR 600-9 (PS)",
-      "Prior Service: AR 601-210, para 3-2 (NPS) · AR 601-210, para 3-2, 3-11, 3-20 / AOC, para 3-2, Table 4-2 (PS)",
-      "Law Violations: AR 601-210, para 2-11, Ch 4 Offense Tables / AOC, para 2-11, Ch 4 (NPS) · Table 4-1 (PS)",
-      "Education: AR 601-210, para 2-7 / AOC, para 2-7 (NPS) · AR 601-210, para 3-5 (PS)",
-      "Marital Status: AR 601-210, para 2-10 (NPS) · AR 601-210, para 2-10, 3-8 (PS)",
-      "Dependents: AR 601-210, para 2-10, / AOC, para 4-3d (NPS) · AR 601-210, para 2-10, 3-8 / AOC, para 4-3d (PS)",
-      "Testing: AR 601-210, para 2-8 / AOC, para 2-8 (NPS) · AR 601-210, para 3-6 / AOC, para 3-6 (PS)"
+      "Age / Citizenship: AR 601-210 paras. 2-3 & 2-4 / AOC para. 2-4 (NPS) · AR 601-210 para. 3-3 / AOC para. 3-3 (PS)",
+      "Physical: AR 601-210 para. 2-9, AR 40-501, AR 670-1 para. 3-3 / AOC para. 2-9 (NPS) · AR 601-210 para. 3-7, AR 670-1 para. 3-3, AR 600-9 / AOC para. 3-7 (PS)",
+      "Prior Service: AR 601-210 para. 3-2 (NPS) · AR 601-210 paras. 3-2, 3-11, 3-20 / AOC, para. 3-2, Table 4-2 (PS)",
+      "Law Violations: AR 601-210 para. 2-11, Ch. 4 Offense Tables / AOC para. 2-11, Ch. 4 (NPS) · Table 4-1 (PS)",
+      "Education: AR 601-210 para. 2-7 / AOC para. 2-7 (NPS) · AR 601-210 para. 3-5 (PS)",
+      "Marital Status: AR 601-210 para. 2-10 (NPS) · AR 601-210 paras. 2-10, 3-8 (PS)",
+      "Dependents: AR 601-210 para. 2-10, / AOC para. 4-3(d) (NPS) · AR 601-210 paras. 2-10, 3-8 / AOC, para. 4-3(d) (PS)",
+      "Testing: AR 601-210 para. 2-8 / AOC para. 2-8 (NPS) · AR 601-210 para. 3-6 / AOC para. 3-6 (PS)"
     ],
     actionType: "interactive_screener"
   },
@@ -819,13 +819,13 @@ export const JOB_AIDS: JobAidItem[] = [
     id: "tool-2",
     title: "Value Maximizer Tool",
     module: "CM4R Module 3",
-    note: "Official CM4R 2-Part Worksheet: Part 1 plots Tangible & Intangible motivators on a 7-spoke radar graph. Part 2 aligns the Top 3 motivators directly to Army National Guard features and personal transformation benefits (So What?).",
+    note: "Official CM4R 2-Part Worksheet: Part 1 plots Tangible & Intangible motivators on a 7-spoke radar graph. Part 2 aligns the Top 3 motivators directly to Army National Guard features and personal transformation benefits (So What?) under ARNG-HRZ Policy #27-01.",
     quickGuide: [
       "Part 1: Plot motivators 1 (Low) to 5 (High) on the 7-axis radar graph: Training, Education, Adventure, Money, Service to Country, Service to Others, Other.",
       "Part 2: Transfer the Top 3 motivators into the 4-column alignment matrix.",
       "Column 1 (Motivator): What do they want?",
       "Column 2 (Values): Why do they want it?",
-      "Column 3 (Features): What Guard features or incentives might meet this need?",
+      "Column 3 (Features): What Guard features or incentives might meet this need? (Direct quick-insert from ARNG-HRZ Policy #27-01)",
       "Column 4 (Benefit / So What?): How would these features benefit the individual and meet the need?"
     ],
     actionType: "interactive_worksheet"

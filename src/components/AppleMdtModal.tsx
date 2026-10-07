@@ -21,32 +21,33 @@ export const APPLE_MDT_DOCTRINE: AppleMdtEntry[] = [
   {
     letter: "A",
     category: "Age / Citizenship",
-    nonPriorService: "AR 601-210, paragraph 2-3 & 2-4 / AOC, paragraph 2-4",
-    priorService: "AR 601-210, paragraph 3-3 / AOC, paragraph 3-3",
-    primaryRegulations: ["AR 601-210", "AOC para 2-4 / 3-3"],
+    nonPriorService: "AR 601-210 paras. 2-3 & 2-4 / AOC para. 2-4",
+    priorService: "AR 601-210 para. 3-3 / AOC para. 3-3",
+    primaryRegulations: ["AR 601-210", "AOC para. 2-4 / 3-3"],
     keyNotes: "Minimum age 17 with parental consent (up to 35th birthday for NPS). U.S. Citizenship or lawful permanent residency verification.",
     docLinks: [
-      { label: "AR 601-210 (Para 2-3, 2-4 Age/Citizenship)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
-      { label: "AOC para 2-4 & 3-3" }
+      { label: "AR 601-210 (Paras. 2-3 & 2-4 Age/Citizenship)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
+      { label: "AOC para. 2-4 & 3-3" }
     ]
   },
   {
     letter: "P",
     category: "Physical",
-    nonPriorService: "AR 601-210, paragraph 2-9; AR 40-501 / AOC, paragraph 2-9",
-    priorService: "AR 601-210, paragraph 3-7 / AOC, paragraph 3-7; AR 600-9",
-    primaryRegulations: ["AR 601-210", "AR 40-501", "AR 600-9", "AOC"],
-    keyNotes: "DoDMERB / MEPS physical qualification under AR 40-501 Chapter 2. Body fat compliance under AR 600-9 Table B-1/B-2.",
+    nonPriorService: "AR 601-210 para. 2-9, AR 40-501, AR 670-1 para. 3-3 / AOC para. 2-9",
+    priorService: "AR 601-210 para. 3-7, AR 670-1 para. 3-3, AR 600-9 / AOC para. 3-7",
+    primaryRegulations: ["AR 601-210", "AR 40-501", "AR 670-1 para. 3-3", "AR 600-9", "AOC"],
+    keyNotes: "DoDMERB / MEPS physical qualification under AR 40-501, tattoo & body appearance standards under AR 670-1 para. 3-3, body fat compliance under AR 600-9.",
     docLinks: [
       { label: "AR 40-501 (Standards of Medical Fitness)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN3801_AR40-501_Web_FINAL.pdf" },
+      { label: "AR 670-1 (Para 3-3 Tattoo/Appearance)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN30297-AR_670-1-000-WEB-1.pdf" },
       { label: "AR 600-9 (Army Body Composition Program)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN37750-AR_600-9-000-WEB-1.pdf" }
     ]
   },
   {
     letter: "P",
     category: "Prior Service",
-    nonPriorService: "AR 601-210, paragraph 3-2",
-    priorService: "AR 601-210, paragraph 3-2, 3-11, 3-20 / AOC, paragraph 3-2, Table 4-2",
+    nonPriorService: "AR 601-210 para. 3-2",
+    priorService: "AR 601-210 paras. 3-2, 3-11, 3-20 / AOC, para. 3-2, Table 4-2",
     primaryRegulations: ["AR 601-210", "AOC Table 4-2"],
     keyNotes: "Verification of RE-Code (RE-1, RE-3 waiverable, RE-4 non-waiverable), DD-214 characterization, and grade determination under AOC Table 4-2.",
     docLinks: [
@@ -57,9 +58,9 @@ export const APPLE_MDT_DOCTRINE: AppleMdtEntry[] = [
   {
     letter: "L",
     category: "Law Violations",
-    nonPriorService: "AR 601-210, paragraph 2-11, Chapter 4, Offense Tables / AOC, paragraph 2-11, Chapter 4",
-    priorService: "AR 601-210, paragraph 2-11, Chapter 4 Offense Tables / AOC, paragraph 2-11, Chapter 4, Table 4-1",
-    primaryRegulations: ["AR 601-210 (Ch 4)", "AOC Ch 4", "Table 4-1"],
+    nonPriorService: "AR 601-210 para. 2-11, Ch. 4 Offense Tables / AOC para. 2-11, Ch. 4",
+    priorService: "AR 601-210 para. 2-11, Ch. 4 Offense Tables / AOC par. 2-11, Ch. 4, Table 4-1",
+    primaryRegulations: ["AR 601-210 (Ch. 4)", "AOC Ch. 4", "Table 4-1"],
     keyNotes: "Moral waivers: Traffic, Misdemeanor, and Felony classifications. TAG vs NGB waiver approval authority matrix.",
     docLinks: [
       { label: "AR 601-210 (Chapter 4 Waiver Authorities)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
@@ -69,9 +70,9 @@ export const APPLE_MDT_DOCTRINE: AppleMdtEntry[] = [
   {
     letter: "E",
     category: "Education",
-    nonPriorService: "AR 601-210, paragraph 2-7 / AOC, paragraph 2-7",
-    priorService: "AR 601-210, paragraph 3-5",
-    primaryRegulations: ["AR 601-210", "AOC para 2-7"],
+    nonPriorService: "AR 601-210 para. 2-7 / AOC para. 2-7",
+    priorService: "AR 601-210 para. 3-5",
+    primaryRegulations: ["AR 601-210", "AOC para. 2-7"],
     keyNotes: "Tier 1 (High school diploma / 15 college credits) vs Tier 2 (GED). Official transcripts and state education requirements.",
     docLinks: [
       { label: "AR 601-210 (Education Tiers & Credentials)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" }
@@ -80,9 +81,9 @@ export const APPLE_MDT_DOCTRINE: AppleMdtEntry[] = [
   {
     letter: "M",
     category: "Marital Status",
-    nonPriorService: "AR 601-210, paragraph 2-10",
-    priorService: "AR 601-210, paragraph 2-10, 3-8",
-    primaryRegulations: ["AR 601-210 (Para 2-10 & 3-8)"],
+    nonPriorService: "AR 601-210 para. 2-10",
+    priorService: "AR 601-210 paras. 2-10, 3-8",
+    primaryRegulations: ["AR 601-210 (Paras. 2-10 & 3-8)"],
     keyNotes: "Enlistment eligibility criteria regarding marital status, single parent certifications, and spousal military concurrence.",
     docLinks: [
       { label: "AR 601-210 (Marital Provisions)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" }
@@ -91,25 +92,25 @@ export const APPLE_MDT_DOCTRINE: AppleMdtEntry[] = [
   {
     letter: "D",
     category: "Dependents",
-    nonPriorService: "AR 601-210, paragraph 2-10, / AOC, paragraph 4-3d",
-    priorService: "AR 601-210, paragraph 2-10, 3-8 / AOC, paragraph 4-3d",
-    primaryRegulations: ["AR 601-210", "AOC para 4-3d"],
-    keyNotes: "Dependency caps and restrictions. AOC para 4-3d waiver requirements for applicants exceeding authorized dependent counts.",
+    nonPriorService: "AR 601-210 para. 2-10, / AOC para. 4-3(d)",
+    priorService: "AR 601-210 paras. 2-10, 3-8 / AOC, para. 4-3(d)",
+    primaryRegulations: ["AR 601-210", "AOC para. 4-3(d)"],
+    keyNotes: "Dependency caps and restrictions. AOC para. 4-3(d) waiver requirements for applicants exceeding authorized dependent counts.",
     docLinks: [
       { label: "AR 601-210 (Dependency Restrictions)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
-      { label: "AOC para 4-3d (Dependency Waivers)" }
+      { label: "AOC para. 4-3(d) (Dependency Waivers)" }
     ]
   },
   {
     letter: "T",
     category: "Testing",
-    nonPriorService: "AR 601-210, paragraph 2-8 / AOC, paragraph 2-8",
-    priorService: "AR 601-210, paragraph 3-6 / AOC, paragraph 3-6",
+    nonPriorService: "AR 601-210 para. 2-8 / AOC para. 2-8",
+    priorService: "AR 601-210 para. 3-6 / AOC para. 3-6",
     primaryRegulations: ["AR 601-210", "AOC Testing Standards"],
     keyNotes: "Armed Forces Qualification Test (AFQT) percentiles (Tier 1 vs Tier 2), line scores, and MOS trainability under AR 601-210.",
     docLinks: [
-      { label: "AR 601-210 (Para 2-8, 3-6 Enlistment Testing)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
-      { label: "AOC para 2-8 & 3-6 (Testing Scores)" }
+      { label: "AR 601-210 (Paras. 2-8 & 3-6 Enlistment Testing)", href: "https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN18684_AR601-210_FINAL.pdf" },
+      { label: "AOC para. 2-8 & 3-6 (Testing Scores)" }
     ]
   }
 ];
@@ -149,24 +150,24 @@ North Little Rock AR 72199
 Instructions: Research and record specific reference, including the paragraph, correlating to each of the following:
 
 Non-Prior Service
-Age / Citizenship: AR 601-210, paragraph 2-3 & 2-4 / AOC, paragraph 2-4
-Physical: AR 601-210, paragraph 2-9; AR 40-501 / AOC, paragraph 2-9
-Prior Service: AR 601-210, paragraph 3-2
-Law Violations: AR 601-210, paragraph 2-11, Chapter 4, Offense Tables / AOC, paragraph 2-11, Chapter 4
-Education: AR 601-210, paragraph 2-7 / AOC, paragraph 2-7
-Marital Status: AR 601-210, paragraph 2-10
-Dependents: AR 601-210, paragraph 2-10, / AOC, paragraph 4-3d
-Testing: AR 601-210, paragraph 2-8 / AOC, paragraph 2-8
+Age / Citizenship: AR 601-210 paras. 2-3 & 2-4 / AOC para. 2-4
+Physical: AR 601-210 para. 2-9, AR 40-501, AR 670-1 para. 3-3 / AOC para. 2-9
+Prior Service: AR 601-210 para. 3-2
+Law Violations: AR 601-210 para. 2-11, Ch. 4 Offense Tables / AOC para. 2-11, Ch. 4
+Education: AR 601-210 para. 2-7 / AOC para. 2-7
+Marital Status: AR 601-210 para. 2-10
+Dependents: AR 601-210 para. 2-10, / AOC para. 4-3(d)
+Testing: AR 601-210 para. 2-8 / AOC para. 2-8
 
 Prior Service
-Age / Citizenship: AR 601-210, paragraph 3-3 / AOC, paragraph 3-3
-Physical: AR 601-210, paragraph 3-7 / AOC, paragraph 3-7; AR 600-9
-Prior Service: AR 601-210, paragraph 3-2, 3-11, 3-20 / AOC, paragraph 3-2, Table 4-2
-Law Violations: AR 601-210, paragraph 2-11, Chapter 4 Offense Tables / AOC, paragraph 2-11, Chapter 4, Table 4-1
-Education: AR 601-210, paragraph 3-5
-Marital Status: AR 601-210, paragraph 2-10, 3-8
-Dependents: AR 601-210, paragraph 2-10, 3-8 / AOC, paragraph 4-3d
-Testing: AR 601-210, paragraph 3-6 / AOC, paragraph 3-6`;
+Age / Citizenship: AR 601-210 para. 3-3 / AOC para. 3-3
+Physical: AR 601-210 para. 3-7, AR 670-1 para. 3-3, AR 600-9 / AOC para. 3-7
+Prior Service: AR 601-210 paras. 3-2, 3-11, 3-20 / AOC, para. 3-2, Table 4-2
+Law Violations: AR 601-210 para. 2-11, Ch. 4 Offense Tables / AOC par. 2-11, Ch. 4, Table 4-1
+Education: AR 601-210 para. 3-5
+Marital Status: AR 601-210 paras. 2-10, 3-8
+Dependents: AR 601-210 paras. 2-10, 3-8 / AOC, para. 4-3(d)
+Testing: AR 601-210 para. 3-6 / AOC para. 3-6`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(fullTextCitations);
@@ -581,7 +582,7 @@ Testing: AR 601-210, paragraph 3-6 / AOC, paragraph 3-6`;
         {/* Modal Footer */}
         <div className="bg-[#1B2016] border-t border-[#DEDCD1]/15 px-6 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shrink-0">
           <div className="text-[11px] font-barlow text-[#8C9180]">
-            <span className="text-[#C09553] font-semibold">Standard:</span> AR 601-210 & AOC Paragraph Crosswalk · SMTB Building 3400
+            <span className="text-[#C09553] font-semibold">Standard:</span> AR 601-210, AR 40-501, AR 670-1 para. 3-3, AR 600-9 & AOC Paragraph Crosswalk · SMTB Building 3400
           </div>
           <div className="flex items-center gap-2">
             <button
